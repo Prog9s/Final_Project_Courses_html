@@ -1,0 +1,113 @@
+header, footer 
+{
+  /*تدرج لون */
+background: linear-gradient(180deg, #f0f2f3, #8FC5EF, #104670);
+margin: 10px;
+padding: 20px;
+border-radius: 15px;
+text-align: center;
+}
+
+h1
+{
+padding: 20px;
+color: #012A4A;
+}
+
+body
+{
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color:#fff;
+  color:#012A4A;
+  cursor:pointer;
+}
+main {
+  margin: 20px auto;
+  padding: 0 20px;
+  position: relative;
+width: 350px;
+height: 520px;
+background: #030013;
+border-radius: 8px;
+overflow: hidden;
+}
+
+section  {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: #000;
+}
+
+section::after{
+      content: "";
+      position: absolute;
+      width: 380px;
+      height: 420px;
+      background: linear-gradient(0deg, transparent, #104670 ,#8FC5EF, #104670);
+      top: -50%;
+      left: -50%;
+      transform-origin: bottom right;
+      animation: anime 8s linear infinite;
+      animation-delay: 3s;
+}
+
+@keyframes anime{
+100% {transform: rotate(360deg);}}
+form{
+      position: absolute;
+      inset: 3px;
+      background: #E7ECEF;
+      border-radius: 8px;
+      z-index: 10;
+      padding: 20px 40px;
+      display: flex;
+      flex-direction: column;
+      color: #104670;
+}
+input{
+      position: relative;
+      width: 300px;
+      height: 100px;
+      border: 2px solid #104670;
+}
+ 
+label {
+  color: #012A4A;}
+  
+  button {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff;
+  background: linear-gradient(10deg, #A3CEF1, #8FC5EF, #104670);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #104670;
+  transition: 0.3s;
+  cursor: pointer;
+}
+button a {
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn_center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button:hover {
+  background: #8FC5EF;
+  color: #012A4A;
+}
+
+button:active {
+  background-color: #A9D6E5;
+  box-shadow: 0 2px 5px #A9D6E5;
+  color: #012A4A;
+  transform: translateY(4px);
+}

@@ -1,0 +1,134 @@
+header, footer 
+{
+  /*تدرج لون */
+background: linear-gradient(180deg, #f0f2f3, #8FC5EF, #104670);
+margin: 10px;
+padding: 20px;
+border-radius: 15px;
+text-align: center;
+}
+
+h1
+{
+padding: 20px;
+color: #012A4A;
+}
+
+body
+{
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color:#fff;
+  color:#012A4A;
+  cursor:pointer;
+}
+
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+section {
+  background: #f0f2f3;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px #012A4A;
+  color: #012A4A;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: row-reverse;
+  gap: 0;
+}
+
+input {
+  border: 2px solid #6096BA;
+  font-size: 15px;
+  width: 40%;
+
+  padding-right: 10px;
+
+
+  margin: 20px 0; /* Only vertical spacing */
+
+  transition: width 0.4s ease, border-color 0.3s ease;
+  border-radius: 0 25px 25px 0;
+}
+/*عند الضغط عند مربع ابحث يكبر*/
+input:focus ,textarea:focus{
+  width: 80%;
+  border-color: #104670;
+  outline: none;
+}
+/*لون نص input*/
+::placeholder
+{
+  font: inherit;
+  color:#A3CEF1;
+}
+.ButtonSearch {
+      padding: 12px 20px;
+      border: none;
+      border-radius: 25px 0 0 25px ;
+      background: linear-gradient(10deg, #A3CEF1, #8FC5EF, #104670);
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.3s;
+      box-shadow: 0 2px 5px #104670;
+  /*padding-left: 10px;  OK for RTL */
+    }
+
+    .ButtonSearch:hover {
+      background-color: #8FC5EF;
+      color: #012A4A;
+    }
+    .ButtonSearch:active {
+      background-color: #A9D6E5;
+      transform: translateY(3px);
+    }
+    
+  ul {
+  list-style: square inside url("sqpurple.gif");
+  margin: 10px;
+  padding: 15px;
+  color: #012A4A;
+}
+    
+.btn_center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn_center button {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff;
+  background: linear-gradient(10deg, #A3CEF1, #8FC5EF, #104670);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #104670;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn_center button a {
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.btn_center button:hover {
+  background: #8FC5EF;
+  color: #012A4A;
+}
+
+.btn_center button:active {
+  background-color: #A9D6E5;
+  box-shadow: 0 2px 5px #A9D6E5;
+  color: #012A4A;
+  transform: translateY(4px);
+}

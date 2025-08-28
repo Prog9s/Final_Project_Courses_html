@@ -1,0 +1,107 @@
+header, footer 
+{
+  /*تدرج لون */
+background: linear-gradient(180deg, #f0f2f3, #8FC5EF, #104670);
+margin: 10px;
+padding: 20px;
+border-radius: 15px;
+text-align: center;
+}
+
+h1
+{
+padding: 20px;
+color: #012A4A;
+}
+
+body
+{
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color:#fff;
+  color:#012A4A;
+  cursor:pointer;
+}
+
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+section {
+  background: #f0f2f3;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px #012A4A;
+  color: #012A4A;
+}
+
+section img {
+  margin: 30px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px #012A4A;
+  transition: transform 0.3s;
+  width: 220px;
+  height: 210px;
+  object-fit: cover;
+}
+
+
+
+
+section form input {
+  width: 70%;
+  height: 30px;
+  margin: 20px;
+  border: 2px solid #104670;
+  border-radius: 5px;
+}
+textarea {
+width: 70%;
+height: 40px;
+margin: 20px;
+border: 2px solid #104670;
+border-radius: 5px;
+}
+
+.btn_center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+button{
+padding: 10px 20px;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+background: linear-gradient(10deg, #A3CEF1, #8FC5EF, #104670);
+border: none;
+border-radius: 10px;
+box-shadow: 0 2px 5px #104670;
+display: flex;
+transition: 0.3s;
+cursor: pointer;
+margin-top: 20px;
+}
+button a {
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+button:hover {
+background: linear-gradient(155deg, #A3CEF1,#4c84af);
+  color: #012A4A;
+}
+
+button:active {
+  background: #A9D6E5;
+  box-shadow: 0 2px 5px  #A9D6E5;
+  color: #012A4A;
+  transform: translateY(4px);
+}

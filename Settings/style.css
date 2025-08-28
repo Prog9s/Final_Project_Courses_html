@@ -1,0 +1,97 @@
+header,
+footer {
+  /*تدرج لون */
+  background: linear-gradient(180deg, #A3CEF1, #8FC5EF, #104670);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+h1 {
+  padding: 20px;
+  color: #012A4A;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #fff;
+  color: #012A4A;
+  cursor: pointer;
+}
+
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+section {
+  background: #E7ECEF;
+  padding: 40px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px #8FC5EF;
+  color: #012A4A;
+}
+
+ label {
+  color: #012A4A ;
+}
+select {
+  background-color: #fff;
+  color: #104670;
+  /*#A3CEF1, #8FC5EF, #104670*/
+  border: 1px solid #104670;
+  padding: 10px;
+  margin-top: 10px;
+}
+select:hover{
+background-color: #104670;
+color: #fff;
+}
+ form input {
+  margin: 20px;
+  border: 2px solid #8FC5EF;
+  color: #012A4A;
+}
+
+
+
+
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff;
+  background: linear-gradient(10deg, #A3CEF1, #8FC5EF, #104670);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #104670;
+  transition: 0.3s;
+  cursor: pointer;
+}
+button a {
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn_center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #8FC5EF;
+  color: #012A4A;
+}
+
+button:active {
+  background-color: #A9D6E5;
+  box-shadow: 0 2px 5px #A9D6E5;
+  color: #012A4A;
+  transform: translateY(4px);
+}
