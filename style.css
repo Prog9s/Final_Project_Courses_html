@@ -44,7 +44,7 @@ nav ul  {
 
   align-items: center;
   padding: 20px;
-  margin: 30px;
+  margin: 10px;
   overflow: auto;
   /*space between items*/ 
   gap: 20px;
@@ -60,7 +60,7 @@ li {
 
 li a {
   position: relative;
-  width: 100%;
+  width: 90%;
   background:linear-gradient(1deg,#104670,#8FC5EF);
   color: white;
   box-shadow: 0 2px 5px #104670;
