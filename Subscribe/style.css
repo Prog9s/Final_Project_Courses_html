@@ -37,8 +37,8 @@ section  {
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 100vh;
-      background: #000;
+    min-height: 100vh; 
+       background: #000;
 }
 
 section::after{
@@ -76,23 +76,6 @@ input{
  
 label {
   color: #012A4A;}
-  
-  button {
-  padding: 10px 20px;
-  font-size: 20px;
-  color: #fff;
-  background: linear-gradient(10deg, #A3CEF1, #8FC5EF, #104670);
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px #104670;
-  transition: 0.3s;
-  cursor: pointer;
-}
-button a {
-  outline: none;
-  color: #fff;
-  text-decoration: none;
-}
 
 .btn_center {
   display: flex;
@@ -100,14 +83,37 @@ button a {
   margin-top: 20px;
 }
 
+
+button{
+padding: 10px 20px;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+background: linear-gradient(10deg, #A3CEF1, #8FC5EF, #104670);
+border: none;
+border-radius: 10px;
+box-shadow: 0 2px 5px #104670;
+display: flex;
+transition: 0.3s;
+cursor: pointer;
+margin-top: 20px;
+}
+button a {
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+}
+
 button:hover {
-  background: #8FC5EF;
+background: linear-gradient(155deg, #A3CEF1,#4c84af);
   color: #012A4A;
 }
 
 button:active {
-  background-color: #A9D6E5;
-  box-shadow: 0 2px 5px #A9D6E5;
+  background: #A9D6E5;
+  box-shadow: 0 2px 5px  #A9D6E5;
   color: #012A4A;
   transform: translateY(4px);
 }
